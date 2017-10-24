@@ -1,0 +1,22 @@
+{
+    "name": "chalkboard",
+    "displayName": "Chalkboard",
+    "description": "",
+    "version": "0.0.1",
+    "publisher": "AgilePixel",
+    "engines": {
+        "vscode": "^1.14.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Chalkboard",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Chalkboard.json"
+            }
+        ]
+    }
+}
