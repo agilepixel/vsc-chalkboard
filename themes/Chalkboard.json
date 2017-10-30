@@ -337,8 +337,7 @@
 		{
 			"scope": [
 				"keyword.other.unit",
-				"keyword.other.use.php",
-				"meta.use.php"
+				"keyword.other.use.php"
 			],
 			"settings": {
 				"foreground": "#B39DDB"
@@ -346,8 +345,17 @@
 		},
 		{
 			"scope": [
+				"meta.use.php"
+			],
+			"settings": {
+				"foreground": "#4EC9B0"
+			}
+		},
+		{
+			"scope": [
 				"punctuation.section.embedded.begin.php",
-				"punctuation.section.embedded.end.php"
+				"punctuation.section.embedded.end.php",
+				"punctuation.definition.variable.php"
 			],
 			"settings": {
 				"foreground": "#569cd6"
@@ -357,7 +365,8 @@
 			"scope": [
 				"support.constant.std.php",
 				"constant.other.php",
-				"support.constant.core.php"
+				"support.constant.core.php",
+				"keyword.operator.heredoc.php"
 			],
 			"settings": {
 				"foreground": "#A8E8A6"

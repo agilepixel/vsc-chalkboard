@@ -1,9 +1,9 @@
 {
     "name": "chalkboard",
     "displayName": "Chalkboard",
-    "description": "",
+    "description": "Chalkboard inspired theme based on Dark+",
     "version": "0.0.1",
-    "publisher": "AgilePixel",
+    "publisher": "agilepixel",
     "engines": {
         "vscode": "^1.14.0"
     },
