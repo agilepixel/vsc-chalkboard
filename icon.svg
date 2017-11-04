@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="53px" height="53px" viewBox="0 0 53 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>AP_logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1-Copy-Copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Slices"></g>
+        <g id="Circle-+-Letters">
+            <circle id="Circle" fill="#262626" cx="26.5" cy="26.5" r="26.5"></circle>
+            <g id="Letters" stroke-width="1" transform="translate(6.000000, 15.000000)">
+                <g id="a">
+                    <rect id="a_4_2" fill="#6A5492" x="12" y="18" width="5" height="5"></rect>
+                    <rect id="a_4_1" fill="#FFFFFF" x="0" y="18" width="5" height="5"></rect>
+                    <rect id="a_3_3" fill="#FFFFFF" x="12" y="12" width="5" height="5"></rect>
+                    <rect id="a_3_2" fill="#FFFFFF" x="6" y="12" width="5" height="5"></rect>
+                    <rect id="a_3_1" fill="#4EC9B0" x="0" y="12" width="5" height="5"></rect>
+                    <rect id="a_2_2" fill="#B39DDB" x="12" y="6" width="5" height="5"></rect>
+                    <rect id="a_2_1" fill="#EBE6CF" x="0" y="6" width="5" height="5"></rect>
+                    <rect id="a_1_3" fill="#FFFFFF" x="12" y="0" width="5" height="5"></rect>
+                    <rect id="a_1_2" fill="#569CD6" x="6" y="0" width="5" height="5"></rect>
+                    <rect id="a_1_1" fill="#FFFFFF" x="0" y="0" width="5" height="5"></rect>
+                </g>
+                <g id="P" transform="translate(23.226667, 0.000000)">
+                    <rect id="p_4_1" fill="#EAC31A" x="0.773333333" y="18" width="5" height="5"></rect>
+                    <rect id="p_3_3" fill="#FFFFFF" x="12.7733333" y="12" width="5" height="5"></rect>
+                    <rect id="p_3_2" fill="#2196F3" x="6.77333333" y="12" width="5" height="5"></rect>
+                    <rect id="p_3_1" fill="#FFFFFF" x="0.773333333" y="12" width="5" height="5"></rect>
+                    <rect id="p_2_2" fill="#36BF7C" x="12.7733333" y="6" width="5" height="5"></rect>
+                    <rect id="p_2_1" fill="#EFC577" x="0.773333333" y="6" width="5" height="5"></rect>
+                    <rect id="p_1_3" fill="#80D8FF" x="12.7733333" y="0" width="5" height="5"></rect>
+                    <rect id="p_1_2" fill="#FFFFFF" x="6.77333333" y="0" width="5" height="5"></rect>
+                    <rect id="p_1_1" fill="#FFFFFF" x="0.773333333" y="0" width="5" height="5"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
