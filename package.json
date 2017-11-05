@@ -2,15 +2,26 @@
     "name": "chalkboard",
     "displayName": "Chalkboard",
     "description": "Chalkboard inspired theme based on Dark+",
-    "version": "0.0.1",
+    "version": "0.2.0",
     "publisher": "agilepixel",
+    "license": "CC0-1.0",
     "engines": {
         "vscode": "^1.14.0"
     },
     "categories": [
         "Themes"
     ],
-    "icon": "icon.svg",
+    "keywords": [
+        "chalkboard"
+    ],
+    "icon": "images/icon.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/agilepixel/vsc-chalkboard.git"
+    },
+    "bugs": {
+        "url": "https://github.com/agilepixel/vsc-chalkboard/issues"
+    },
     "contributes": {
         "themes": [
             {

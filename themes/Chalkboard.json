@@ -52,13 +52,13 @@
 		{
 			"scope": "comment",
 			"settings": {
-				"foreground": "#EAC31A"
+				"foreground": "#99a9b3"
 			}
 		},
 		{
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#6dc8d2"
+				"foreground": "#40C4FF"
 			}
 		},
 		{
@@ -150,7 +150,7 @@
 		{
 			"scope": "markup.deleted",
 			"settings": {
-				"foreground": "#ce9178"
+				"foreground": "#c85e7c"
 			}
 		},
 		{
@@ -174,7 +174,7 @@
 		{
 			"scope": "markup.inline.raw",
 			"settings": {
-				"foreground": "#ce9178"
+				"foreground": "#c85e7c"
 			}
 		},
 		{
@@ -241,7 +241,7 @@
 		{
 			"scope": "string",
 			"settings": {
-				"foreground": "#EFC577"
+				"foreground": "#FFE082"
 			}
 		},
 		{
@@ -259,7 +259,7 @@
 		{
 			"scope": "string.regexp",
 			"settings": {
-				"foreground": "#d16969"
+				"foreground": "#FFE082"
 			}
 		},
 		{
@@ -316,18 +316,19 @@
 		{
 			"scope": [
 				"keyword.operator.new",
+				"keyword.other.new.php",
+				"keyword.operator.type",
 				"keyword.operator.expression",
 				"keyword.operator.cast",
 				"keyword.operator.sizeof",
 				"keyword.operator.logical.python"
 			],
 			"settings": {
-				"foreground": "#569cd6"
+				"foreground": "#40C4FF"
 			}
 		},
 		{
 			"scope": [
-				"keyword.operator.type",
 				"variable.other.property"
 			],
 			"settings": {
@@ -348,7 +349,7 @@
 				"meta.use.php"
 			],
 			"settings": {
-				"foreground": "#4EC9B0"
+				"foreground": "#0fd8b9"
 			}
 		},
 		{
@@ -370,6 +371,14 @@
 			],
 			"settings": {
 				"foreground": "#A8E8A6"
+			}
+		},
+		{
+			"scope": [
+				"keyword.operator.heredoc.php"
+			],
+			"settings": {
+				"foreground": "#B39DDB"
 			}
 		},
 		{
@@ -442,7 +451,7 @@
 				"storage.type.primitive.groovy"
 			],
 			"settings": {
-				"foreground": "#4EC9B0"
+				"foreground": "#0fd8b9"
 			}
 		},
 		{
@@ -456,7 +465,7 @@
 				"entity.other.inherited-class"
 			],
 			"settings": {
-				"foreground": "#4EC9B0"
+				"foreground": "#0fd8b9"
 			}
 		},
 		{
@@ -499,7 +508,7 @@
 				"support.constant.color"
 			],
 			"settings": {
-				"foreground": "#CE9178"
+				"foreground": "#c85e7c"
 			}
 		},
 		{
@@ -514,7 +523,7 @@
 				"support.other.parenthesis.regexp"
 			],
 			"settings": {
-				"foreground": "#CE9178"
+				"foreground": "#c85e7c"
 			}
 		},
 		{
@@ -525,7 +534,7 @@
 				"constant.character.set.regexp"
 			],
 			"settings": {
-				"foreground": "#d16969"
+				"foreground": "#fdcc59"
 			}
 		},
 		{

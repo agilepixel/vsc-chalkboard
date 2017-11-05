@@ -19,8 +19,8 @@ use OtherVendor\OtherPackage\BazClass;
 
 class ClassName extends ParentClass implements \FooInterface, \Countable
 {
-     const VERSION = 1.0;
-     const DATE_APPROVED = '2014-06-01';
+    const VERSION = 1.0;
+    const DATE_APPROVED = '2014-06-01';
     protected static $foo = false;
     private $my_array = array("bar" => 'single quote string', true, null);
     public $var2 = <<<EOD
@@ -40,7 +40,7 @@ EOD;
             $e = bar();
             $f = $func('test');
 
-            $g ^= preg_match('/[a-zA-Z_\x7f-\xff][a-zA-Z0-9_\x7f-\xff]*/', $a);
+            $g ^= preg_match('/([a-zA-Z_\x7f-\xff])[a-zA-Z0-9_\x7f-\xff]*/', $a);
 
             return $g;
         } elseif ($expr2 !== $expr1 || $expr2 < $expr1) {

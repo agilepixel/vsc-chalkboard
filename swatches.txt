@@ -1,0 +1,19 @@
+
+
+#99a9b3 silver
+
+#fdcc59 yellow
+
+#149b93 mint green
+#0fd8b9 mint green 2
+
+#16c98d spearmint green
+
+#1290bf blue
+
+#89bde4 - light blue
+
+#c85e7c - pink
+
+#dd464c - bright pink
+
