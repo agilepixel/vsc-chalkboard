@@ -97,7 +97,6 @@
 		},
 		{
 			"scope": [
-				"entity.other.attribute-name",
 				"entity.other.attribute-name.class.css",
 				"entity.other.attribute-name.class.mixin.css",
 				"entity.other.attribute-name.id.css"
@@ -119,8 +118,10 @@
 		},
 		{
 			"scope": [
+				"entity.other.attribute-name",
 				"entity.other.attribute-name.attribute.scss",
-				"entity.other.attribute-name.scss"
+				"entity.other.attribute-name.scss",
+				"entity.name.section.group-title.ini"
 			],
 			"settings": {
 				"foreground": "#89bde4"
@@ -205,9 +206,12 @@
 		},
 		{
 			"name": "brackets of XML/HTML tags",
-			"scope": "punctuation.definition.tag",
+			"scope": [
+				"punctuation.definition.tag",
+				"punctuation.section.tag.twig"
+			],
 			"settings": {
-				"foreground": "#808080"
+				"foreground": "#E3E3E3"
 			}
 		},
 		{
@@ -349,7 +353,8 @@
 				"keyword.operator.expression",
 				"keyword.operator.cast",
 				"keyword.operator.sizeof",
-				"keyword.operator.logical.python"
+				"keyword.operator.logical.python",
+				"keyword.operator.comparison.twig"
 			],
 			"settings": {
 				"foreground": "#40C4FF"
@@ -410,7 +415,8 @@
 		},
 		{
 			"scope": [
-				"keyword.operator.heredoc.php"
+				"keyword.operator.heredoc.php",
+				"meta.tag.sgml.html"
 			],
 			"settings": {
 				"foreground": "#B39DDB"

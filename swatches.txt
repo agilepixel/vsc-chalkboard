@@ -4,6 +4,10 @@
 
 #569cd6 variables 
 
+#80d8ff properties
+
+#89bde4 attributes
+
 #9575CD numbers
 
 #B39DDB use
@@ -31,7 +35,7 @@
 
 #1290bf blue
 
-#89bde4 - light blue
+
 
 #c85e7c - pink
 

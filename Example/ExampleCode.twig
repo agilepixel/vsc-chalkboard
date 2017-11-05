@@ -1,0 +1,14 @@
+{% block headmeta %}
+{% endblock %}
+ 
+ <div class="card card--basic{% if widget.settings.class == 33 %} {{ widget.settings.class }}{% endif %}">
+      <div class="card__inner card__centered">
+        {% if widget.settings.title is defined %}<h4 class="order__card__title">{{widget.settings.title}}</h4>{% endif %}
+        {% if widget.settings.content %}<div class="input input__select input__select__centered">
+          <p>{{widget.settings.content}}</p>
+        </div>{% endif %}
+        <div class="card__actions">
+          {% include '_snippets/_actions' with {'widget_id' : widget.widget_id, 'actions': widget.settings.actions} only %}
+        </div>
+   </div>
+</div>
