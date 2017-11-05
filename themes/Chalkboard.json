@@ -84,29 +84,46 @@
 		{
 			"scope": "entity.name.tag.css",
 			"settings": {
-				"foreground": "#d7ba7d"
-			}
-		},
-		{
-			"scope": "entity.other.attribute-name",
-			"settings": {
-				"foreground": "#569cd6"
+				"foreground": "#0fd8b9"
 			}
 		},
 		{
 			"scope": [
+				"variable.parameter.url.scss"
+			],
+			"settings": {
+				"foreground": "#FFE082"
+			}
+		},
+		{
+			"scope": [
+				"entity.other.attribute-name",
 				"entity.other.attribute-name.class.css",
 				"entity.other.attribute-name.class.mixin.css",
-				"entity.other.attribute-name.id.css",
+				"entity.other.attribute-name.id.css"
+			],
+			"settings": {
+				"foreground": "#2196F3"
+			}
+		},
+		{
+			"scope": [
 				"entity.other.attribute-name.parent-selector.css",
 				"entity.other.attribute-name.pseudo-class.css",
 				"entity.other.attribute-name.pseudo-element.css",
-				"source.css.less entity.other.attribute-name.id",
+				"source.css.less entity.other.attribute-name.id"
+			],
+			"settings": {
+				"foreground": "#0fd8b9"
+			}
+		},
+		{
+			"scope": [
 				"entity.other.attribute-name.attribute.scss",
 				"entity.other.attribute-name.scss"
 			],
 			"settings": {
-				"foreground": "#d7ba7d"
+				"foreground": "#89bde4"
 			}
 		},
 		{
@@ -178,9 +195,12 @@
 			}
 		},
 		{
-			"scope": "meta.selector",
+			"scope": [
+				"meta.selector",
+				"meta.attribute-selector.scss"
+			],
 			"settings": {
-				"foreground": "#d7ba7d"
+				"foreground": "#FFE082"
 			}
 		},
 		{
@@ -199,7 +219,7 @@
 		{
 			"scope": "meta.preprocessor.string",
 			"settings": {
-				"foreground": "#FFA700"
+				"foreground": "#FFE082"
 			}
 		},
 		{
@@ -235,7 +255,8 @@
 		{
 			"scope": "storage.modifier",
 			"settings": {
-				"foreground": "#2196F3"
+				"foreground": "#2196F3",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -247,13 +268,13 @@
 		{
 			"scope": "string.tag",
 			"settings": {
-				"foreground": "#F3B940"
+				"foreground": "#FFE082"
 			}
 		},
 		{
 			"scope": "string.value",
 			"settings": {
-				"foreground": "#EFAC32"
+				"foreground": "#FFE082"
 			}
 		},
 		{
@@ -285,7 +306,14 @@
 		{
 			"scope": [
 				"support.type.vendored.property-name",
-				"support.type.property-name",
+				"support.type.property-name"
+			],
+			"settings": {
+				"foreground": "#89bde4"
+			}
+		},
+		{
+			"scope": [
 				"variable.css",
 				"variable.scss",
 				"variable.other.less",
@@ -337,11 +365,18 @@
 		},
 		{
 			"scope": [
-				"keyword.other.unit",
 				"keyword.other.use.php"
 			],
 			"settings": {
 				"foreground": "#B39DDB"
+			}
+		},
+		{
+			"scope": [
+				"keyword.other.unit"
+			],
+			"settings": {
+				"foreground": "#9575cd"
 			}
 		},
 		{
@@ -500,15 +535,23 @@
 			"name": "CSS property value",
 			"scope": [
 				"support.constant.property-value",
-				"support.constant.font-name",
 				"support.constant.media-type",
 				"support.constant.media",
 				"constant.other.color.rgb-value",
-				"constant.other.rgb-value",
+				"constant.other.rgb-value"
+			],
+			"settings": {
+				"foreground": "#40C4FF"
+			}
+		},
+		{
+			"name": "CSS property value",
+			"scope": [
+				"support.constant.font-name",
 				"support.constant.color"
 			],
 			"settings": {
-				"foreground": "#c85e7c"
+				"foreground": "#A8E8A6"
 			}
 		},
 		{

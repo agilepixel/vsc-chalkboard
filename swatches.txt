@@ -1,11 +1,31 @@
+#99a9b3 silver comments
+
+#FFE082 strings
+
+#569cd6 variables 
+
+#9575CD numbers
+
+#B39DDB use
 
 
-#99a9b3 silver
+#40C4FF new, instanceof, true, false
 
-#fdcc59 yellow
+#2196F3 class, function, protected, extends
+
+
+#A8E8A6 constants
+
+#36bf7c methods, return, break
+
+#0fd8b9 classes
+
+
+
+
+
 
 #149b93 mint green
-#0fd8b9 mint green 2
 
 #16c98d spearmint green
 
@@ -15,5 +35,5 @@
 
 #c85e7c - pink
 
-#dd464c - bright pink
+#fdcc59 yellow
 

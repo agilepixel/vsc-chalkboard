@@ -9,7 +9,7 @@ html {
 	-webkit-tap-highlight-color : $select-colour;
 	-webkit-text-size-adjust : 100%;
 	-ms-text-size-adjust : 100%; 
-	min-width:320px;
+	min-width: 320px;
 }
 
 ::selection,::-moz-selection {
@@ -19,7 +19,7 @@ html {
 	background-image: url(images/slider-shadow-small.png);
 }
 
-.wrapper{
+.wrapper {
 
 	float: left;
 	background: #fff;
@@ -40,7 +40,7 @@ html {
 		-webkit-box-shadow: inset 0px 0px 2px #000000;
 		box-shadow: inset 0px 0px 2px #000000;
 		content: ' \00BB ';
-		background:lighten($linkcolour, 10%);
+		background: lighten($linkcolour, 10%);
 
 		img[width],
 		img[height]{
@@ -55,7 +55,7 @@ html {
 
 	input[type="submit"]{
 
-		opacity:0.75;
+		opacity: 0.75;
     	filter:alpha(opacity=75);
     	white-space: pre;
 		background:url('../img/ajax-loader.gif') center center no-repeat;
